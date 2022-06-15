@@ -32,13 +32,8 @@ public class SinglePrimeNumberCalculator {
             if (number % counter == 0) {
 
                 pon = false;
-                System.out.println("Your number isn't a prime-number, because: \nYour number can be divided by " + counter + " (maybe) and all its multiples");
+                System.out.println("Your number isn't a prime-number, because: \nYour number can be divided by " + counter + " and (maybe) all its multiples");
 
-                if (unnecessaryNumbers.size() > 0) {
-
-                }else {
-                    System.out.println("The number you chose,can be divided by 2 and all its multiples");
-                }
 
                 break;
             }

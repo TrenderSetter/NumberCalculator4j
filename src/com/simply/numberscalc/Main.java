@@ -18,8 +18,9 @@ public class Main {
                    2) calculates a chosen area of prime numbers\s
                    3) converts decimal in hexadecimal\s
                    4) converts hexadecimal in decimal\s
-                   5) converts decimal in binary\s
-                   6) converts binary in decimal
+                   5) converts hexadecimal in binary\s
+                   6) converts decimal in binary\s
+                   7) converts binary in decimal
                    """);
 
         String input = scanner.next();
@@ -30,8 +31,9 @@ public class Main {
             case "2" -> System.out.println(AreaPrimeNumberCalculator.areanumberscalc());
             case "3" -> System.out.println(DecimalInHexTranslate.dezimalinhextranslate());
             case "4" -> System.out.println(HexInDecimalTranslate.hexindecimaltranslate());
-            case "5" -> System.out.println(DecimalInBinaryTranslate.decimalinbinary());
-            case "6" -> System.out.println(BinaryInDecimalTranslate.hexindecimaltranslate());
+            case "5" -> System.out.println(HexInBinaryTranslate.hexinbinarytranslate());
+            case "6" -> System.out.println(DecimalInBinaryTranslate.decimalinbinary());
+            case "7" -> System.out.println(BinaryInDecimalTranslate.hexindecimaltranslate());
 
         }
     }
