@@ -11,7 +11,7 @@ public class HexInBinaryTranslate {
         String input = scanner.next();
         StringBuilder output = new StringBuilder();
 
-        String[] hexnumbers = {"0000", "0001", "0010", "0011", "0100", "0101", "0110", "0111", "1000", "1001", "1010", "1011", "1100", "1101", "1110", "1111"};
+        String[] binarynumbers = {"0000", "0001", "0010", "0011", "0100", "0101", "0110", "0111", "1000", "1001", "1010", "1011", "1100", "1101", "1110", "1111"};
 
 
 
@@ -21,22 +21,22 @@ public class HexInBinaryTranslate {
 
             switch (s)
             {
-                case "0" -> output.append(hexnumbers[0]);
-                case "1" -> output.append(hexnumbers[1]);
-                case "2" -> output.append(hexnumbers[2]);
-                case "3" -> output.append(hexnumbers[3]);
-                case "4" -> output.append(hexnumbers[4]);
-                case "5" -> output.append(hexnumbers[5]);
-                case "6" -> output.append(hexnumbers[6]);
-                case "7" -> output.append(hexnumbers[7]);
-                case "8" -> output.append(hexnumbers[8]);
-                case "9" -> output.append(hexnumbers[9]);
-                case "A" -> output.append(hexnumbers[10]);
-                case "B" -> output.append(hexnumbers[11]);
-                case "C" -> output.append(hexnumbers[12]);
-                case "D" -> output.append(hexnumbers[13]);
-                case "E" -> output.append(hexnumbers[14]);
-                case "F" -> output.append(hexnumbers[15]);
+                case "0" -> output.append(binarynumbers[0]);
+                case "1" -> output.append(binarynumbers[1]);
+                case "2" -> output.append(binarynumbers[2]);
+                case "3" -> output.append(binarynumbers[3]);
+                case "4" -> output.append(binarynumbers[4]);
+                case "5" -> output.append(binarynumbers[5]);
+                case "6" -> output.append(binarynumbers[6]);
+                case "7" -> output.append(binarynumbers[7]);
+                case "8" -> output.append(binarynumbers[8]);
+                case "9" -> output.append(binarynumbers[9]);
+                case "A" -> output.append(binarynumbers[10]);
+                case "B" -> output.append(binarynumbers[11]);
+                case "C" -> output.append(binarynumbers[12]);
+                case "D" -> output.append(binarynumbers[13]);
+                case "E" -> output.append(binarynumbers[14]);
+                case "F" -> output.append(binarynumbers[15]);
             }
         }
         return output.toString();

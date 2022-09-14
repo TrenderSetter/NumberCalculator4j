@@ -20,7 +20,8 @@ public class Main {
                    4) converts hexadecimal in decimal\s
                    5) converts hexadecimal in binary\s
                    6) converts decimal in binary\s
-                   7) converts binary in decimal
+                   7) converts binary in decimal\s
+                   8) converts binary in hexadecimal
                    """);
 
         String input = scanner.next();
@@ -34,6 +35,7 @@ public class Main {
             case "5" -> System.out.println(HexInBinaryTranslate.hexinbinarytranslate());
             case "6" -> System.out.println(DecimalInBinaryTranslate.decimalinbinary());
             case "7" -> System.out.println(BinaryInDecimalTranslate.hexindecimaltranslate());
+            case "8" -> System.out.println(BinaryInHexTranslate.binaryinhextranslate());
 
         }
     }
